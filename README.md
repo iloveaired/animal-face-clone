@@ -1,0 +1,21 @@
+- git
+
+```
+…or create a new repository on the command line
+echo "# animal-face-clone" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/iloveaired/animal-face-clone.git
+git push -u origin main
+
+
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/iloveaired/animal-face-clone.git
+git branch -M main
+git push -u origin main
+```
